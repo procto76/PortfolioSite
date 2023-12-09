@@ -4,9 +4,19 @@ html {
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    margin: 30px;
-    padding: 30px;
     color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-body {
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
     background: #a7a7a7;
 }
 
@@ -92,26 +102,22 @@ img.no-float {
     top: 0;
 }
 
-.flex-links-social li {
+.flex-links-social li a {
     margin-right: 35px;
+    color: #000;
 }
 
 .flex-links-social {
     list-style: none;
-    display: flex; 
+    display: flex;
 }
 
 a {
     color: #e8e8e8;
-  }
-
-c {
-    color: #000;
+    text-decoration: none;
   }
 
 #title-body {
-    border-top: 2px dotted #ccc;
-    padding: 20px;
     font-size: large;
 }
 
@@ -120,7 +126,7 @@ c {
 }
 
 .form-example {
-    background: #ccc;
+    background: #727070;
     padding-top: 10px;
     margin-top: 10px;
     padding-bottom: 10px;
