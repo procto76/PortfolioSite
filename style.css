@@ -1,5 +1,5 @@
 html {
-    background: #e3e3e3;
+    background: #ffffff;
 }
 
 body {
@@ -17,7 +17,7 @@ body {
     padding-top: 20px;
     padding-right: 70px;
     padding-left: 70px;
-    background: #a7a7a7;
+    background: #a6c997;
 }
 
 header {
@@ -54,7 +54,7 @@ img.no-float {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #242424;
+    background: #2f533e;
     font-size: x-large;
     position: sticky;
     top: 0;
@@ -64,7 +64,7 @@ img.no-float {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #505050;
+    background: #508D69;
     font-size: x-large;
     position: sticky;
     top: 0;
@@ -74,7 +74,7 @@ img.no-float {
     list-style: none;
     display: flex;
     color: #e8e8e8;
-    background-color: #242424;
+    background-color: #2f533e;
 }
 
 .flex-titles li {
