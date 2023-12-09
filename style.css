@@ -175,3 +175,9 @@ table tr {
     margin-right: 5px;
     margin-left: 5px;
 }
+
+.imagegallery img {
+    width: 280px;
+    height: auto;
+    border: 1px solid #000;
+}
