@@ -65,7 +65,11 @@ img.no-float {
 }
 
 .titleleft {
-    padding-left: 700px;
+    padding-left: 0px;
+}
+
+.titleright {
+    padding-left: 1000px;
 }
 
 .flex-container-titles {
