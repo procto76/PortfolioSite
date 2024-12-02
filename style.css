@@ -142,12 +142,12 @@ a {
     text-decoration: none;
   }
 
-/* Text type b used for links */
-b {
-    color: #000000;
+/* Text type black used for links */
+a.link-black {
+    color: #000;
     text-decoration: none;
   }
-
+  
 #title-body {
     font-size: large;
 }
