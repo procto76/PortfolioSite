@@ -135,8 +135,15 @@ img.no-float {
     display: flex;
 }
 
+/* Text type a used for links */
 a {
     color: #e8e8e8;
+    text-decoration: none;
+  }
+
+/* Text type b used for links */
+b {
+    color: #000000;
     text-decoration: none;
   }
 
