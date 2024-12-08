@@ -66,6 +66,12 @@
         such as favoring the attacker in combat to create a more satisfying experience. I used a similar strategy to 
         approach players colliding with cars. This means the collider present on the client is the one used in collision
         detection, and the player will only die to a car when a car appears close enough to kill them.
+        <br>
+        <br>
+        I also found ways to efficiently synchronize transforms for online play. For instance, there is a dynamic transform-based
+        animation in game for picking up items. the item shrinks and floats toward the player. When simply using the build-in Netcode 
+        for Gameobject "Network Transform" component, I noticed signficant delay on the client-pov. I opted to update the transform 
+        via Rpc (remote procedure call) instead, which directly sent the transform updates to everyone (client and server) as it was happening.
       </p>
 
       <br>
