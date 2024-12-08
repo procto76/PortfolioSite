@@ -34,57 +34,143 @@
   <section id="title-body">
     <h2>Backyard Brawl - Generalist Programmer</h2>
     
+
     <article class="text-body">
-      
+
+      <p>
+        <b>Backyard Brawl</b> is a chaotic multi-gamemode party game, supporting 2-4 players for both local and online play. 
+        I worked on this project with seven other MSU students as a networking, gameplay and systems programming, contributing a large variety 
+        of work to the development of the game. This project will have a full steam release in late 2025.
+      </p>
+
+      <br>
+
+      <! Itch link -->
+      <div class="flex-container-social-links">
+        <a href="https://hariso.itch.io/trick-or-treat-fighters-x3d"><b><u>itch.io link</u></b></a>
+      </div>
+
+      <br>
 
       <! Netcode section -->
       <h3>Netcode</h3>
       <div class="floatright">
-        <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/TOTFX3D.png">
+        <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/RushHour.gif">
       </div>
       <p>
-        The most valueble Online fairness (favor attacker)
+        During my work on this project, I gained a plethora of valueble experience networking. This project utilized
+        Netcode for GameObject, the Unity 6 networking solution. 
+        <br>
+        <br>
+        I learned various strategies of optmizing online play, 
+        such as favoring the attacker in combat to create a more satisfying experience. I used a similar strategy to 
+        approach players colliding with cars. This means the collider present on the client is the one used in collision
+        detection, and the player will only die to a car when a car appears close enough to kill them.
       </p>
 
+      <br>
+      <br>
 
       <! Modular collectible class section-->
       <h3>Modular collectible class</h3>
-      <div class="floatright">
+      <div class="floatleft">
         <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/TOTFX3D.png">
       </div>
       <p>
-        Body of text on the modular collectible class.
+        Backyard Brawl features a variety of collectible items, such as candy in the Candy Collectathon mode 
+        and tickets in the laserball mode. I created a modular collectible class to accomadate the different 
+        collectibles. This class contains logic for key parts of collectibles such as animations and player inventory
+        interaction.
       </p>
 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-      <! Player state system section-->
-      <h3>Player state system</h3>
+      <! Event System section-->
       <div class="floatright">
-        <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/TOTFX3D.png">
+        <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/EventManager.png">
       </div>
+      <h3>Event System</h3>
       <p>
-        Body of text on the player state system.
+        I created a modular event system that allows designers to create unique events that display animated
+        text and call a Unity event to carry out the event (pictured to the right). Below are a couple of the events I scripted for the 
+        Candy Collectathon gamemode.
       </p>
+
+      <div class="floatleft">
+        <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/IncreasedCandySpawn.gif">
+        <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/RushHour.gif">
+      </div>   
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
       <! Power up section -->
-      <h3>Power up section</h3>
-      <div class="floatright">
-        <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/TOTFX3D.png">
-      </div>
+      <h3>Power-ups and Hazards</h3>
+      
+      
       <p>
-        Body of text on the Power up section.
+        Backyard Brawl features six unique power-ups, five of which I programmed. Each power-up required a different
+        approach, providing interesting challenges to solve and network to maintain fairness in online play.
+        <br>
+        <br>
+        <div class="floatleft">
+          <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/WerewolfMask.gif">
+        </div>
+        The gif to the left shows the "werewolf mask" power-up. This power-up gives the player a circle around representing 
+        the area of effect. Once actived, any players in this radius are stunned for a couple seconds.
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="floatright">
+          <img alt="Screenshot of Trick or Treat Fighters X 3D gameplay" src="images/StinkBomb.gif">
+        </div>
+        I also programmed a stink bomb hazard that players may encounter. This item (gif to the right)
+        causes players to emit a stink cloud and explodes them after 10 seconds unless they pass it onto another player by kicking them.
       </p>
 
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
 
-    <! Itch link -->
-    <div class="flex-container-social-links">
-      <a href="https://hariso.itch.io/trick-or-treat-fighters-x3d"><b><u>itch.io link</u></b></a>
-    </div>
+
+   
 
 </article>
 
-<br>
-<br>
 <br>
 <br>
 </section>

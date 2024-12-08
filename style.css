@@ -1,10 +1,10 @@
 html {
-    background: #c5ffe7;
+    background: #303030;
 }
 
 body {
     font-family: 'Times New Roman', Times, serif;
-    color: #2f533e;
+    color: #d3d3d3;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ body {
     padding-top: 20px;
     padding-right: 70px;
     padding-left: 70px;
-    background: #dbdbdb;
+    background: #1e1e1e;
 }
 
 header {
@@ -77,7 +77,7 @@ img.no-float {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #2f533e;
+    background: #1c3226;
     font-size: x-large;
     position: sticky;
     top: 0;
@@ -87,7 +87,7 @@ img.no-float {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #508D69;
+    background: #2a4a37;
     font-size: x-large;
     position: sticky;
     top: 0;
@@ -97,7 +97,7 @@ img.no-float {
     list-style: none;
     display: flex;
     color: #e8e8e8;
-    background-color: #2f533e;
+    background-color: #1c3226;
 }
 
 .flex-titles li {
@@ -144,7 +144,7 @@ a {
 
 /* Text type b used for links */
 a.link-b {
-    color: #508D69;
+    color: #63ae82;
     text-decoration: none;
   }
 
